@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
 }
 
+/* header */
 header {
   position: relative;
   height: 200px;
@@ -24,7 +25,6 @@ header {
   background-size: cover;
   background-position: center;
 }
-
 .logo {
   position: absolute;
   height: 110px;
@@ -33,25 +33,53 @@ header {
   transform: translate(-50%, -50%);
 
 }
-
 .layover h2 {
   position: absolute;
   top:80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 14px;
+  font-size: 12px;
   font-family: sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
+/* fine header */
 
-
-nav {
-  height: 50px;
-  background-color: lightgrey;
+/* navbar */
+.menu {
+  height: 51px;
+  line-height: 48px;
+  background-color: #504741;
   margin-bottom: 10px;
 }
+.menu-list {
+  list-style: none;
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 0 10px;
+  color: #fff;
+  border-left: 1px solid rgba(192, 192, 192, 0.2);
+  border-right: 1px solid #302B27;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
+}
+.menu ul li:last-child {
+  border-right: none;
+}
+.menu ul li:first-child {
+  border-left: none;
+}
+.menu ul li:hover {
+  background-color: #302B27;
+}
+/* fine navbar */
 
+
+/* main */
 main {
 
 
