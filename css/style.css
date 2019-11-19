@@ -122,7 +122,7 @@ main::after {
   width: 60%;
   font-family: Roboto;
   font-weight: lighter;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding-left: 5px;
   color: #504741;
 }
@@ -143,12 +143,29 @@ main::after {
 }
 /* fine colonna sx */
 
+/* colonna centrale */
 .col-center {
   width: 50%;
   /* height: 100px; */
   background-color: grey;
   margin: 0 5%;
 }
+.col-center .title {
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-weight: lighter;
+  text-shadow: 2px 2px 2px #302A25;
+  color: #504741;
+  text-transform: uppercase;
+}
+
+.col-center p {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* fine colonna centrale */
+
 .col-last {
   width: 20%;
   /* height: 100px; */
