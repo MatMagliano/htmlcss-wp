@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  background-image: url(../img/natural-pattern.png);
   width: 100%;
   padding: 10px;
 
@@ -99,7 +100,7 @@ main::after {
 }
 .col-left {
   width: 20%;
-  background-color: grey;
+  background-color: #fff;
 }
 .title-list:hover {
   content: "";
@@ -147,7 +148,7 @@ main::after {
 .col-center {
   width: 50%;
   padding: 10px;
-  background-color: grey;
+  background-color: #fff;
   margin: 0 5%;
 }
 .col-center .title {
@@ -169,14 +170,12 @@ main::after {
 /* colonna destra */
 .col-last {
   width: 20%;
-  /* height: 100px; */
-
 }
 .widget {
   width: 100%;
   padding: 5%;
   border-radius: 2%;
-  background-color: grey;
+  background-color: #fff;
   margin-bottom: 10px;
   overflow: visible;
 }
@@ -199,9 +198,31 @@ main::after {
 
 /* fine main */
 
+/* footer */
 footer {
   width: 100%;
-  height: 50px;
+  height: 70px;
   margin: auto;
-  background-color: lightgreen;
+  background-color: #fff;
+  border-radius: 5%;
 }
+.top-footer {
+  text-align: center;
+  color: lightgrey;
+  font-style: italic;
+  border-bottom: 1px solid lightgrey;
+}
+.footer-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-bottom .footer-col{
+  float: left;
+  padding: 10px;
+  width: calc(100% / 3);
+  text-align: center;
+  font-size: 30px;
+  color: lightgrey;
+}
+/* fine footer */
