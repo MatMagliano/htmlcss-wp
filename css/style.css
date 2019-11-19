@@ -6,9 +6,10 @@
 body {
   width: 100%;
   padding: 10px;
+
 }
 .container {
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -89,17 +90,59 @@ main::after {
   display: table;
   clear: both;
 }
+
+/* colonna sx */
 .float-left{
   float: left;
   padding: 1%;
   border-radius: 2%;
-
 }
 .col-left {
   width: 20%;
-  /* height: 100px; */
   background-color: grey;
 }
+.title-list:hover {
+  content: "";
+  display: table;
+  clear: both;
+}
+.title-list{
+  margin-bottom: 10px;
+}
+
+.title-list i,
+.title-list h3 {
+  float: left;
+}
+.title-list i {
+  color: #FFA500;
+  font-size: 20px;
+}
+.title-list h3 {
+  width: 60%;
+  font-family: Roboto;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding-left: 5px;
+  color: #504741;
+}
+.list-col {
+  list-style: none;
+}
+.list-col li  {
+  margin-bottom: 5px;
+}
+.list-col li a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #98FB98;
+}
+.list-col li a:hover {
+  text-decoration: underline;
+}
+/* fine colonna sx */
+
 .col-center {
   width: 50%;
   /* height: 100px; */
@@ -120,9 +163,10 @@ main::after {
   margin-bottom: 10px;
   overflow: hidden;
 }
+/* fine main */
 
 footer {
-  width: 70%;
+  width: 100%;
   height: 50px;
   margin: auto;
   background-color: lightgreen;
